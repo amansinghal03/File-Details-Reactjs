@@ -1,0 +1,35 @@
+// .table{
+//     background-color: red;
+// }
+table{
+    width: 100%;
+}
+th{
+    font-style: italic;
+}
+
+table, th, td {
+    border: 1px solid white;
+    font-size: large;
+    color: white;
+    padding: 8px;
+  }
+
+td{
+    button{
+        font-size: large;
+        padding: 0px 44px 0px 44px;
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+    }
+    button:hover{
+        background-color: antiquewhite;
+      }
+}
+
+.file-show{
+    button{
+      margin:   0px 0px 7px 0px;
+    }
+}
